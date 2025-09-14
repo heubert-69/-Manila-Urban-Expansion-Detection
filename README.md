@@ -8,7 +8,7 @@ A machine learning web application for predicting urban areas from satellite ima
 
 📈 Interactive Visualizations: Multiple charts and graphs for result analysis
 
-📱 Web Interface: User-friendly Gradio interface
+📱 Web Interface: User-friendly Streamlit interface
 
 📥 Download Results: Export predictions as CSV files
 
@@ -19,7 +19,7 @@ A machine learning web application for predicting urban areas from satellite ima
 🏗️ Technology Stack
 Technology	Purpose	Version
 Python	Backend language	3.8+
-Gradio	Web interface framework	≥3.50.0
+Streamlit interface framework	≥3.50.0
 Scikit-learn	Machine learning library	≥1.0.0
 Pandas	Data processing	≥1.3.0
 NumPy	Numerical computations	≥1.21.0
