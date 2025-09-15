@@ -1,5 +1,5 @@
 # Manila-Urban-Expansion-Detection
-A machine learning web application for predicting urban areas from satellite imagery spectral data. This tool uses a pre-trained Random Forest model to classify urban and non-urban areas based on Landsat spectral features.
+A machine learning web application for predicting urban areas from satellite imagery spectral data. This tool uses a pre-trained Random Forest model to classify urban and non-urban areas based on Landsat spectral features. Specifically made for Bay2Bay Hacks
 
 🌟 Features
 📊 CSV-based Prediction: Upload CSV files with spectral features for urban classification
