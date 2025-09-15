@@ -232,6 +232,20 @@ Ensure numeric columns don't contain text values
 
 Handle missing values before upload
 
+Model Results 
+- We evaluated five models (Logistic Regression, Random Forest, Decision Tree, K-Nearest Neighbors, and SVC) using Randomized Search with 5-fold cross-validation, optimizing for F1 score.
+
+- Best Model: Random Forest Classifier
+
+- Best Parameters: 200 estimators, max depth = 20, min samples split = 5, min samples leaf = 4
+
+- Performance: Accuracy (0.9996), Precision (0.9965), Recall (1.0000), F1-Score (0.9982), ROC-AUC (1.0000)
+
+- The Random Forest model demonstrated near-perfect performance with only 4 errors out of 10,000 samples (0.04%), all of which were false urban classifications. No false non-urban errors were observed.
+
+This indicates that the model is highly reliable for detecting urban expansion in Manila, though a slight threshold adjustment may reduce false positives further.
+
+
 📈 Example Use Cases
 Urban Planning:
 Monitor urban expansion over time
